@@ -2,13 +2,13 @@ from setuptools import setup
 
 
 packages = [
-    'travis_code_review',
-    'travis_code_review.readme_scorer',
+    'travis_code_reviewers',
+    'travis_code_reviewers.readme_scorer',
 ]
 
 package_dir = {
-    'travis_code_review':'.',
-    'travis_code_review.readme_scorer':'readme_scorer',
+    'travis_code_reviewers':'.',
+    'travis_code_reviewers.readme_scorer':'readme_scorer',
 }
 
 
@@ -16,7 +16,7 @@ with open('requirements.txt') as f:
     required = f.read().splitlines()
 
 setup(
-    name='python_utils',
+    name='travis_code_reviewers',
     version='0.1.0',
     description='',
     author='JHA',

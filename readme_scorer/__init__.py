@@ -1,1 +1,1 @@
-from readme_scorer import *
+from .readme_scorer import *
