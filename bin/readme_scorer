@@ -34,5 +34,5 @@ HTML = htmlReport(os.path.join("index.html", CURRENT_DIRECTORY), INITIAL_HTML)
 TOTAL_DESCRIBED, TOTAL_FOUND, HTML = calc_readme_score(CURRENT_DIRECTORY, html=HTML)
 HTML.finalise_report(TOTAL_DESCRIBED, TOTAL_FOUND)
 
-with open("index.html", "w") as file_:
+with open("readme_scorer_report.html", "w") as file_:
     file_.write(HTML.text)
